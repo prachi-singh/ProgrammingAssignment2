@@ -1,5 +1,5 @@
-#A pair of functions that first makes a cacheable matrix and then solves the matrix for its inverse but only after checking if the very same matrix has been
-#solved for before using this function, thus has a cached solved product in memory.
+#A pair of functions that first makes a cacheable square matrix and then solves the matrix for its inverse but only after checking 
+#if the very same matrix has been solved for before using this function, thus has a cached solved inverse in memory.
 
 ## The makeCacheMatrix function creates a special "matrix" object that can cache its inverse.
 ## It is a list containing a function to:
